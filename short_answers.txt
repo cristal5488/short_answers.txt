@@ -1,0 +1,9 @@
+igure out the difference between these last two lines of code:
+
+a = 1
+%w[#{a} b c d]
+%W[#{a} b c d]
+
+the w creates and array of strings using single quotes. The %w builds
+and array using double quotes allowing
+string interpolation
